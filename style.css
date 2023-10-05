@@ -1,5 +1,5 @@
-main img {
-  width: 200px;
+* {
+  box-sizing: border-box;
 }
 
 nav {
@@ -9,4 +9,18 @@ nav {
 nav a {
   color: black;
   text-decoration: none;
+}
+
+nav * {
+  margin: 10px 5px;
+}
+
+nav i {
+  font-size: 25px;
+}
+
+main img {
+  display: block;
+  width: 300px;
+  margin: auto;
 }
