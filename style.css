@@ -23,4 +23,28 @@ main img {
   display: block;
   width: 300px;
   margin: 0 auto;
+  clear: both;
+}
+
+input[type="text"] {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #707070;
+  padding: 0 20px;
+}
+
+.buttons {
+  display: block;
+  margin: 30px auto;
+  width: fit-content;
+}
+
+.buttons button {
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
 }
